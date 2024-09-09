@@ -36,4 +36,17 @@ document.querySelector("#menu-btn").addEventListener("click", () => {
    loginForm.classList.remove("active");
      navBar.classList.remove("active");
     
- };
+};
+const btnss = document.createElement('button')
+btnss.textContent = 'click me'
+document.body.appendChild(btnss)
+btnss.addEventListener('click', () => {
+    console.log('click by sophie')
+})
+
+let items = document.querySelectorAll('.items')
+console.log(items);
+document.items.addEventListener('click', () => {
+    console.log('buy pizza');
+    
+})
