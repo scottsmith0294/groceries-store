@@ -5,7 +5,7 @@
     --box-shadow:0 .5rem 1rem rgba(0,0,0,1);
     --border: 2rem solid rgba(0,0,0,1);
     --outline:.22rem solid rgba(0,0,0,0.4 ) ;
-    --outline-hover:.4rem solid var(--black ) ;
+    --outline-hover:.22rem solid var(--black ) ;
 }
 *{
     margin:0;
@@ -21,7 +21,6 @@
 
 html{
     font-size: 62.5%;
-    /* overflow: hidden; */
     scroll-behavior: smooth;
 }
 body{
@@ -298,7 +297,7 @@ background-color: var(--orange);
 .heading span{
     background: var(--orange);
     padding: .5rem 3rem;
-    clip-path: (100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }  
   
 .features .box-container{
@@ -345,6 +344,7 @@ background-color: var(--orange);
     border: .2rem solid var(--black);
     color: var(--black);
     cursor: pointer;
+    
 }
  .btn-box:hover{
      color: #fff;
@@ -389,7 +389,7 @@ background-color: var(--orange);
 .products .product-slider .stars i{
     font-size: 1.7rem;
     color: var(--orange);
-    padding: .5rem 0;
+    padding:0px 10px 2rem 0px;
 }
 @media(max-width:991px){
     html{
@@ -433,6 +433,6 @@ background-color: var(--orange);
 }
 @media(max-width:450px){
     html{
-        font-size: 50%;
+        font-size: 45%;
     }
 }
