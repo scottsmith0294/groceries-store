@@ -302,7 +302,7 @@ background-color: var(--orange);
   
 .features .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     margin-top: 20px;
     gap: 30px;
 }
