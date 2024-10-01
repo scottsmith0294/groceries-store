@@ -464,19 +464,16 @@ background-color: var(--orange);
         display: block;
     }
     .home .content{
-        margin-right:50px ;
+        margin-left: 60px;
     }
     .home .content h3{
-        font-size: 2.9rem;
-
+        font-size: 2rem;
     }
     .home .content p{
-        width: 60ch;
-        padding-right: 95px;
-    }
-    .btnn{
-        margin-left: 130px;
-    }
+        width: 45ch;
+        padding-right: 100px;
+       
+    } 
 }
 @media(max-width:450px){
     html{
