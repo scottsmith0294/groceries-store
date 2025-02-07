@@ -423,7 +423,11 @@ background-color: var(--orange);
     padding: 4px 25px;
     padding-bottom: 20px;
 }
-
+footer{
+    height: 500px;
+    background-color: #97be97;
+    display: flex;
+}
 @media(max-width:991px){
     html{
         font-size: 55%;
